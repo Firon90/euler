@@ -27,10 +27,10 @@ public class Aufgabe8 {
 		
 		int numberOfNumbers = 13;
 		
-		int biggestProduct = 0;
+		long biggestProduct = 0;
 		
 		for(int i = 0; i < source.length() - numberOfNumbers; i++) {
-			int product = 1;
+			long product = 1;
 			for(int j = 0; j < numberOfNumbers; j++) {
 				product *=  Character.getNumericValue(source.charAt(i+j));
 			}
